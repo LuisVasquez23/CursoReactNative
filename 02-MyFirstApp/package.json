@@ -4,12 +4,11 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
-    "ios": "react-native run-ios",
+    "ios": "npm run ios -- --simulator='iPhone 15 Pro (4103D1DD-5241-4F2A-94EC-1F04ADF9EA5F)'",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest",
-    "start:ios": "npm run ios -- --simulator='iPhone 15 Pro (4103D1DD-5241-4F2A-94EC-1F04ADF9EA5F)'"
-  },
+    "test": "jest"
+   },
   "dependencies": {
     "react": "18.2.0",
     "react-native": "0.74.3",
